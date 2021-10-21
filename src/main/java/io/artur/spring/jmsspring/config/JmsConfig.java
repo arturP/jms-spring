@@ -13,6 +13,7 @@ import org.springframework.jms.support.converter.MessageType;
 public class JmsConfig {
 
     public static final String QUEUE_NAME = "first-queue-ABC";
+    public static final String QUEUE_SEND_RCV_NAME = "first-snd-rcv-queue";
 
     @Bean
     public MessageConverter messageConverter() {
